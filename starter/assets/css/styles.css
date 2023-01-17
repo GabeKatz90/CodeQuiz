@@ -1,0 +1,110 @@
+* {
+  font-family: Georgia, Times, "Times New Roman", serif;
+}
+
+p {
+  margin: 15px 15px;
+}
+
+input[type="text"] {
+  font-size: 100%;
+}
+
+button {
+  display: inline-block;
+  margin: 10px;
+  cursor: pointer;
+  color: #fff;
+  background-color: #790de5;
+  border-radius: 5px;
+  border: 0;
+  padding: 20px;
+}
+
+button:hover {
+  background-color: #980fe8;
+}
+
+ol {
+  padding-left: 15px;
+  max-height: 600px;
+  overflow: auto;
+}
+
+li {
+  padding: 5px;
+  list-style: decimal inside none;
+}
+
+.center {
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+
+.container {
+  height: 300px;
+  position: relative;
+
+}
+
+.quiz, .scores {
+  margin: 50px auto 0 auto;
+  max-width: 425px;
+}
+
+
+.flex {
+  display: flex;
+  justify-content: center;
+}
+
+.flexb {
+  display: flex;
+  justify-content: left;
+}
+
+.timer {
+  position: center;
+  top: 15px;
+  right: 15px;
+  display: flex;
+
+}
+
+.options button {
+  display: block;
+}
+
+
+.hide {
+  display: none;
+}
+
+.feedback {
+  font-style: bold;
+  font-size: 120%;
+  margin-top: 20px;
+  padding-top: 15px;
+  color: #fff;
+  border-top: 2px solid #4B0082;
+}
+
+.h1 {
+  display: flex;
+  position: center;
+  flex-wrap: wrap;
+}
+
+
+@media screen and (max-width: 768px) {
+
+}
+
+/* This will be applied on any screen smaller than 575px */
+@media screen and  (max-width: 575px) {
+
+}
